@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.person{
+    justify-items: center;
+}
+
+.avatar{
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+h1.name{
+    justify-content: center;
+    display: flex;
+    font-size: 26px;
+    padding: 20px 0px 0px 0px;
+}
+
+p.local{
+    color: hsl(75, 94%, 57%);
+    justify-content: center;
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    font-size: 14px;
+}
+
+p.phrase{
+    color: hsl(0, 0%, 52%);
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+    padding: 20px 0px 10px;
+    text-align: center;
+}
+
+.links{
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+ul .bottons-links{
+    height: 20px;
+    background-color: hsl(0, 0%, 20%) ;
+    border-radius: 6px;
+    justify-content: center;
+    display: flex;
+    width: auto;
+    padding: 20px 90px;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+.bottons-links:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
